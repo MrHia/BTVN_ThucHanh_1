@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popular</title>
+    <title>View-post</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -46,56 +46,140 @@
         </div>
     </header>
     <!-- main -->
-    <div class="container">
+    <div class="container mt-5">
         <h2> <span class=" badge bg-success">New</span> Post Exemple</h2>
-        <h3>Subtile</h3>
+        <h3 class="mt-3">Subtile</h3>
+        <div class="main_about row">
+            <div class="col-md-6">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/img2.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/img3.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/img5.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <h2>Description</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quis tempora obcaecati nihil,
+                    necessitatibus ad nobis provident ut impedit itaque animi repellat at aut sunt porro adipisci
+                    debitis dolore sed.</p>
+                <h2>List</h2>
+                <ul>
+                    <li>Iteam</li>
+                    <li>Iteam</li>
+                    <li>Iteam</li>
+                </ul>
+                <h2>Link</h2>
+                <a href="google.com">Google.com</a>
+            </div>
+        </div>
 
+    </div>
+    <hr mt-5>
+    <div class="container mt-5">
+        <h3>Related posts</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <figure class="figure">
+                    <img src="assets/images/img2.jpeg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                  </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <img src="assets/images/img3.jpeg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                  </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <img src="assets/images/img5.jpeg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                  </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="figure">
+                    <img src="assets/images/img6.jpeg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                  </figure>
+            </div>
+        </div>
     </div>
 
     <!-- footer -->
-    <footer class="container">
-        <div class="d-flex justify-content-sm-between">
-            <div class="row flex-column">
-                <div class="col-md-3">
-                    <h4><i class="bi bi-twitter"></i> Footer Iteam</h4>
+    <footer class="mt-5 bg-light py-3">
+        <div class="container mt-5">
+            <div class="d-flex justify-content-sm-between">
+                <div class="row flex-column">
+                    <div class="col-md-3">
+                        <h4><i class="bi bi-twitter"></i> Footer Iteam</h4>
+                    </div>
+                    <div class="col-md-3">Iteam</div>
+                    <div class="col-md-3">Iteam</div>
+                    <div class="col-md-3">Iteam</div>
                 </div>
-                <div class="col-md-3">Iteam</div>
-                <div class="col-md-3">Iteam</div>
-                <div class="col-md-3">Iteam</div>
-            </div>
-            <div class="row flex-column">
-                <div class="col-md-3">
-                    <h4><i class="bi bi-twitter"></i> Footer Iteam</h4>
+                <div class="row flex-column">
+                    <div class="col-md-3">
+                        <h4><i class="bi bi-twitter"></i> Footer Iteam</h4>
+                    </div>
+                    <div class="col-md-3">Iteam</div>
+                    <div class="col-md-3">Iteam</div>
+                    <div class="col-md-3">Iteam</div>
                 </div>
-                <div class="col-md-3">Iteam</div>
-                <div class="col-md-3">Iteam</div>
-                <div class="col-md-3">Iteam</div>
-            </div>
-            <div class="row flex-column">
-                <div class="col-md-3">
-                    <h4><i class="bi bi-twitter"></i> Footer Iteam</h4>
+                <div class="row flex-column">
+                    <div class="col-md-3">
+                        <h4><i class="bi bi-twitter"></i> Footer Iteam</h4>
+                    </div>
+                    <div class="col-md-3">Iteam</div>
+                    <div class="col-md-3">Iteam</div>
+                    <div class="col-md-3">Iteam</div>
                 </div>
-                <div class="col-md-3">Iteam</div>
-                <div class="col-md-3">Iteam</div>
-                <div class="col-md-3">Iteam</div>
-            </div>
-            <div class="row flex-column">
-                <div class="col-md-3">
-                    <h4><i class="bi bi-twitter"></i> Footer Iteam</h4>
+                <div class="row flex-column">
+                    <div class="col-md-3">
+                        <h4><i class="bi bi-twitter"></i> Footer Iteam</h4>
+                    </div>
+                    <div class="col-md-3">Iteam</div>
+                    <div class="col-md-3">Iteam</div>
+                    <div class="col-md-3">Iteam</div>
                 </div>
-                <div class="col-md-3">Iteam</div>
-                <div class="col-md-3">Iteam</div>
-                <div class="col-md-3">Iteam</div>
             </div>
+        </div>
+        <div class="container">
+            <div class="row text-center mt-5">
+                <hr>
+            <div class="col-md ">
+                &copy;
+                Hoàng Minh Quang 6/12/2021
+            </div>
+            </div>
+            
         </div>
     </footer>
-    <div class="row text-center">
-        <hr>
-        <div class="col-md ">
-            &copy;
-            Hoàng Minh Quang 6/12/2021
-        </div>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
